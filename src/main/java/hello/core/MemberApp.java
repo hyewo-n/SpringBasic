@@ -8,6 +8,7 @@ import hello.core.member.MemberServiceImpl;
 public class MemberApp {
     public static void main(String[] args) {
         MemberService memberService = new MemberServiceImpl();
+        //                          id가 Long 타입이기 때문에 뒤에 L을 붙여준 것이다.
         Member member = new Member(1L, "memberA", Grade.VIP);
         memberService.join(member);
 
