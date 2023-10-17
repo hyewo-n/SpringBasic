@@ -34,7 +34,7 @@ class ApplicationContextBasicFindTest {
     }
 
     // 지금까지 인터페이스로 조회했는데 이렇게 하면
-    // 인터페이스의 구현체가 대상이 된다. dlfjgrp
+    // 인터페이스의 구현체가 대상이 된다.
 
     @Test
     // 구체 타입으로 조회하면 유연성이 떨어진다.
